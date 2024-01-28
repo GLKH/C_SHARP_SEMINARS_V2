@@ -38,6 +38,21 @@ int NumberFromMass(int[] arr)
     return result;
 }
 
+// Вариант решения от преподавателя. 
+// Вывесим элементы массива по очереди в строку
+// и потом преобразовать в число:
+
+// long NumberFromMass(int[] arr) 
+// {
+//     string word = "":
+
+//     foreach (int number in arr)
+//     {
+//         word += number;
+//     }
+//     return long.Parse(word);
+// }
+
 int num = int.Parse(Console.ReadLine()!);
 int start = int.Parse(Console.ReadLine()!);
 int stop = int.Parse(Console.ReadLine()!);
